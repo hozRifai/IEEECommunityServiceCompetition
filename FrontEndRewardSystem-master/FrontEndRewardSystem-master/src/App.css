@@ -1,0 +1,207 @@
+.container {
+  line-height: 30px;
+}
+#login_page {
+  margin-bottom: 26%;
+}
+#rewardslevelone {
+  color: cornflowerblue;
+  margin-bottom: 30px;
+}
+#rewardshistory {
+  color: cornflowerblue;
+  margin-bottom: 30px;
+}
+#rewardshistory:after {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 9px;
+  width: 80px; /* Change this to whatever width you want. */
+  border-bottom: 1px solid cornflowerblue;
+}
+#rewardslevelone:after {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 9px;
+  width: 120px; /* Change this to whatever width you want. */
+  border-bottom: 1px solid cornflowerblue;
+}
+#levelsleft {
+  color: cornflowerblue;
+  margin-bottom: 30px;
+}
+#login_title {
+  color: cornflowerblue;
+  margin-bottom: 30px;
+}
+#sharerewards {
+  color: cornflowerblue;
+  margin-bottom: 30px;
+}
+#sharerewards:after {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 9px;
+  width: 220px; /* Change this to whatever width you want. */
+  border-bottom: 1px solid cornflowerblue;
+}
+#login_daily_check {
+  color: cornflowerblue;
+  margin-bottom: 30px;
+}
+#login_daily_check:after {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 9px;
+  width: 130px; /* Change this to whatever width you want. */
+  border-bottom: 1px solid cornflowerblue;
+}
+#login_title:after {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 9px;
+  width: 130px; /* Change this to whatever width you want. */
+  border-bottom: 1px solid cornflowerblue;
+}
+#pointsAnalysis {
+  color: cornflowerblue;
+  margin-bottom: 30px;
+}
+
+#pointsAnalysis:after {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 9px;
+  width: 130px; /* Change this to whatever width you want. */
+  border-bottom: 1px solid cornflowerblue; /* This creates the border. Replace black with whatever color you want. */
+}
+#levelsleft:after {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 12px;
+  width: 50%; /* Change this to whatever width you want. */
+  border-bottom: 1px solid cornflowerblue; /* This creates the border. Replace black with whatever color you want. */
+}
+
+#tooltip {
+  margin-top: 20px;
+}
+.login_container {
+  min-height: 100%;
+}
+.control_field_width {
+  max-width: 20%;
+}
+
+#currentpoints {
+  color: cornflowerblue;
+  margin-bottom: 32px;
+}
+#currentpoints:after {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 9px;
+  width: 90px; /* Change this to whatever width you want. */
+  border-bottom: 1px solid cornflowerblue; /* This creates the border. Replace black with whatever color you want. */
+}
+#addgoalstitle {
+  color: cornflowerblue;
+  margin-bottom: 30px;
+}
+#addgoalstitle:after {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 9px;
+  width: 70px; /* Change this to whatever width you want. */
+  border-bottom: 1px solid cornflowerblue; /* This creates the border. Replace black with whatever color you want. */
+}
+#goalshistory {
+  color: cornflowerblue;
+  margin-bottom: 30px;
+}
+#goalshistory:after {
+  content: "";
+  display: block;
+  margin: 9px;
+  width: 70px;
+  border-bottom: 1px solid cornflowerblue;
+}
+#fillasurvey {
+  color: cornflowerblue;
+  margin-bottom: 20px;
+}
+#fillasurvey:after {
+  content: "";
+  display: block;
+  margin: 9px;
+  width: 170px;
+  border-bottom: 1px solid cornflowerblue;
+}
+.icon-wrapper {
+  position: relative;
+  padding: 0px 30px;
+}
+
+.icon-wrapper .anticon {
+  position: absolute;
+  top: -2px;
+  width: 16px;
+  height: 16px;
+  line-height: 1;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.icon-wrapper .anticon:first-child {
+  left: 0;
+}
+
+.icon-wrapper .anticon:last-child {
+  right: 300px;
+}
+#make_transaction_history {
+  color: cornflowerblue;
+  margin-bottom: 20px;
+}
+#make_transaction_history:after {
+  content: "";
+  display: block;
+  margin: 9px;
+  width: 120px;
+  border-bottom: 1px solid cornflowerblue;
+}
+
+.video-background {
+  background: #000;
+  position: fixed;
+  top: 63px; right: 0; bottom: 0; left: 0;
+  /* z-index: -99; */
+}
+.video-foreground,
+.video-background iframe {
+  position:abosolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* pointer-events: none; */ 
+}
+.demo {
+  margin: 16px;
+}
+.demo-nav {
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 16px;
+  background: #f8f8f8;
+}
+.demo-nav a {
+  line-height: 30px;
+  padding: 0 8px;
+}
+.app-list {
+  margin-top: 16px;
+}
+#founders {
+  margin-bottom: 155px;
+}
